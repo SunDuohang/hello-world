@@ -1,0 +1,10 @@
+
+char * strcpy( char *dst, char *src )
+{
+	char *p=NULL;
+	if( src==NULL || des==NULL )
+		return NULL;
+	p=des;
+	while( (*dst++ = *src++)!='\0')
+	return p;
+}
