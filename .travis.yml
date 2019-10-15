@@ -1,2 +1,9 @@
 language: c
-script: gcc test.c -o test
+dist:bionic
+sudo:required
+instill:
+  - sudo apt update
+  - sudo apt-get instill -y libcurl4-openssl-dev
+script: 
+  -gcc hello.c -o test -lcurl
+        -./hello
