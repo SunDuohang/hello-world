@@ -5,5 +5,5 @@ instill:
   - sudo apt update
   - sudo apt-get instill -y libcurl4-openssl-dev
 script: 
-  -gcc hello.c -o test -lcurl
+  -gcc hello.c -o hello -lcurl
         -./hello
